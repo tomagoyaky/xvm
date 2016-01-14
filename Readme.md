@@ -41,7 +41,7 @@ Currently, the only data type supported is the 64-bit signed integer, or
     Unconditionally jump to <label>.
     * `prt`  
     Pop the value at the top of the stack and print it to standard output.  
-    * `read`
+    * `read`  
     Read a value from standard input and push it on the stack.  
     * `halt`  
     Halt the execution of the program.
