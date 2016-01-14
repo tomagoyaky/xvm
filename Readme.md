@@ -49,7 +49,7 @@ Currently, the only data type supported is the 64-bit signed integer, or
 3. Registers  
     * r1, r2, r3, r4, r5  
     For use, such as loading onto stack or saving from stack. 
-    * pc
+    * pc  
     The program counter. You should (normally) not access this register.
 
 4. Errors  
@@ -67,9 +67,9 @@ exit state immediately.
     error will be raised.  
 
 5. Future  
-    After all work to implement the current specification, support for user 
-    defined functions will be added. A second data type, the 8-bit unsigned 
-    integer, or "xvm_char", will also be added.
+After all work to implement the current specification, support for user-
+defined functions will be added. A second data type, the 8-bit unsigned 
+integer, or "xvm_char", will also be added.
 
 
 ## License
